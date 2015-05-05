@@ -1,0 +1,41 @@
+{
+  "name": "format-throw",
+  "version": "0.1.0",
+  "description": "Throw errors with formatted msgs and support for custom error classes",
+  "author": "Felix Zandanel <felix@zandanel.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fza/format-throw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fza/format-throw/issues"
+  },
+  "keywords": [
+    "throw",
+    "raise",
+    "error",
+    "format",
+    "sprintf"
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "chai": "~2.2.0",
+    "grunt": "~0.4.5",
+    "grunt-coveralls": "~1.0.0",
+    "grunt-eslint": "~11.0.0",
+    "grunt-mocha-istanbul": "~2.4.0",
+    "istanbul": "~0.3.13",
+    "load-grunt-tasks": "~3.1.0",
+    "mocha": "~2.2.4"
+  },
+  "dependencies": {
+    "format": "~0.2.1"
+  }
+}
