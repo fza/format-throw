@@ -36,6 +36,6 @@
     "mocha": "~2.2.4"
   },
   "dependencies": {
-    "format": "~0.2.1"
+    "sprintf-js": "^1.0.3"
   }
 }
